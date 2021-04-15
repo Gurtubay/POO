@@ -49,3 +49,8 @@ class  Serie : public Media{
             return temporada;
         }
 }; //Clase hija Serie
+
+int main (){
+    Serie epi;
+        epi.nombre="Invincible";
+        epi.

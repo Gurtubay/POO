@@ -24,7 +24,7 @@ class Media{
         }
         void imprimir(){
             cout << "Nombre: "  << nombre << endl;
-            cout << "Duracion: "  << duracion << endl;
+            cout << "Duracion: "  << duracion << " minutos"<<endl;
             cout << "Genero: "  << genero << endl;
             cout << "Calificacion: "  << calificacion << endl;
             
@@ -53,4 +53,6 @@ class  Serie : public Media{
 int main (){
     Serie epi;
         epi.nombre="Invincible";
-        epi.
+        epi.duracion="48";
+        epi.genero="Accion";
+        epi.calificacion="8";
